@@ -12,8 +12,6 @@ const PasswordChange = () => {
 
     let { passwordtoken } = useParams();
 
-    console.log(passwordtoken)
-
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
