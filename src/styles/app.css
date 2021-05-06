@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --main-color: #1360ef;
+  --title-color: #1d1d33;
+  --text-color: #8090b5;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+img {
+  width: 100%;
+}
+
+td {
+  border: 1px solid rgba(215, 227, 243, 0.5) !important;
+  background-color: white;
+}
+
+/**** HEADER ****/
+
+.logo {
+  font-size: 32px;
+  color: var(--title-color);
+  font-weight: 300;
+}
+
+.logo span {
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.navbar-nav a {
+  color: var(--text-color);
+}
+
+/**** LANDING ****/
+
+.title-landing {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--title-color);
+}
+
+.title-landing span {
+  color: var(--main-color);
+}
+
+.subtitle-landing {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--text-color);
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+.badge-primary-soft {
+  background-color: rgba(19, 96, 239, 0.1);
+  color: var(--main-color);
+}
+
+.cards-landing {
+  padding: 3rem 1.5rem;
+  background-color: rgba(19, 96, 239, 0.03);
+  min-height: 300px;
+  margin-bottom: 15px;
+}
+
+.cards-landing h5 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--title-color);
+}
+
+.cards-landing p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-color);
+}
+
+.cards-landing img {
+  width: 80px;
+  height: 80px;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--text-color);
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+@media (min-width: 1280px) {
+  .title-landing {
+    font-size: 56px;
+  }
+
+  .cards-landing {
+    margin-bottom: 0;
+  }
+}
+
+/**** SINGLE COIN ****/
+
+.title-coin {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+.title-coin span {
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+.price-coin {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--title-color);
+  margin-right: 15px;
+}
+
+.price-coin span {
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+.change-coin {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--title-color);
+  margin-right: 15px;
+}
+
+.positive {
+  color: green
+}
+
+.negative {
+  color: red;
+} 
+
+/**** Filter ****/
+
+.filter-input:focus {
+  outline: none;
+}
