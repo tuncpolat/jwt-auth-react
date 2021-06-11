@@ -38,13 +38,22 @@ export default function Dashboard() {
 
 
     return (
-        <Container fluid>
+        <Container>
             <Row>
                 <Col>
-                    {user ?
-                        <>You are logged in with email {user.email}. <br />
-                        Your email is {user.confirmedEmail ? null : "not"} verified.
-                    </> : null}
+                    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
+
+                        {user ?
+                            <>
+                                <h1><span style={{ width: "40px" }} role="img" aria-label="emoji">🎉🥳🎉</span></h1>
+                                <p style={{ textAlign: "center" }}>
+                                    You are logged in with email <strong>{user.email}</strong>.
+                                <br />
+                                Your email is <strong>{user.confirmedEmail ? null : "not"} verified</strong>.
+                                </p>
+                            </> : null}
+
+                    </div>
                 </Col>
             </Row>
         </Container>
