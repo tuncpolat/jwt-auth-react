@@ -1,6 +1,6 @@
 # User Authentification and Authorization with JWT (Access and Refresh Token) in React
 
-This is the React front-end part to demonstrate JWT authorization and authentication inspired by this [blogpost by Hasura](https://hasura.io/blog/best-practices-of-using-jwt-with-graphql/).<br/> You must also install and run the server. Check it out [here](https://github.com/tuncpolat/jwt-auth-react). In my blog post I try to explain how the whole JWT authentication and authorization flow with access and refresh tokens works in a MERN Stack. You can read it [here](https://simplweb.ch/en/blog/user-authentification-and-authorization-with-jwt-access-and-refresh-token-in-nodejs-react-express-and-mongo-db)
+This is the React front-end part to demonstrate JWT authorization and authentication inspired by this [blog post by Hasura](https://hasura.io/blog/best-practices-of-using-jwt-with-graphql/).<br/> You must also install and run the server. Check it out [here](https://github.com/tuncpolat/jwt-auth-react). In my blog post, I try to explain how the whole JWT authentication and authorization flow with access and refresh tokens works in a MERN Stack. You can read it [here](https://simplweb.ch/en/blog/user-authentification-and-authorization-with-jwt-access-and-refresh-token-in-nodejs-react-express-and-mongo-db)
 
 ---
 
@@ -16,7 +16,7 @@ This is the React front-end part to demonstrate JWT authorization and authentica
 
 ## Back-End
 
-To use this is properly you have to clone and run the server. Check it out [here](https://github.com/tuncpolat/jwt-auth-react)
+To use this properly, you have to clone and run the server. Check it out [here](https://github.com/tuncpolat/jwt-auth-react)
 
 ---
 
@@ -32,13 +32,13 @@ Once the dependencies are installed, you can run `npm start` to start the applic
 
 ## Support
 
-Whether you use this project, have learned something from it, or just like it, please consider supporting it by including the blog post above into your blog/website.
-If you have a question don't hesitate to ask me... in that sense let's connect 🤜🤛
+Whether you use this project, have learned something from it, or just like it, please consider supporting it by including the blog post above in your blog/website.
+If you have a question, don't hesitate to ask me... in that sense, let's connect 🤜🤛
 
 [<img align="left" alt="www.simplweb.ch" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
-[<img align="left" alt="Tunç Polat | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="www.simplweb.ch" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][personal website]
 [<img align="left" alt="Tunç Polat | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="Simplweb | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+
 
 <br/>
 
@@ -49,6 +49,5 @@ If you have a question don't hesitate to ask me... in that sense let's connect �
 This project is licensed under the terms of the **MIT** license.
 
 [website]: https://www.simplweb.ch
-[twitter]: https://twitter.com/TunPolat9
-[instagram]: https://www.instagram.com/simplwebbasel/
+[personal website]: https://www.tuncpolat.dev
 [linkedin]: https://www.linkedin.com/in/tun%C3%A7-polat-b8203a116/
